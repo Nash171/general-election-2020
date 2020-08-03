@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+}
+
+.district, .division {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    height: 30px;
+}
