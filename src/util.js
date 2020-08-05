@@ -1,3 +1,17 @@
+export const parties = {
+  0: { name: "Other", color: '#FFF'},
+  1: { name: "Other", color: '#F1F'},
+  2: { name: "SJB", color: '#FAF'},
+  3: { name: "UNP", color: '#FCF'},
+  4: { name: "NPP", color: '#FFF'},
+  5: { name: "ITAK", color: '#FFF'},
+  6: { name: "SLMC", color: '#FFF'},
+  7: { name: "EPDP", color: '#FFF'},
+  8: { name: "UPFA", color: '#FFF'},
+  9: { name: "JVP", color: '#FFF'},
+  10: { name: "SLFP", color: '#FFF'},
+};
+
 export const districts = [
   {id:"0", name:"All Island"},
   {id:"1", name:"Colombo"},
