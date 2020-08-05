@@ -20,7 +20,7 @@ code {
 }
 
 .header {
-  padding: 10px 20px;
+  padding: 15px 20px;
   box-sizing: border-box;
   background-color: #5863ab;
   color: #FFF;
@@ -31,11 +31,25 @@ code {
   margin: 0;
 }
 
+.result-type button {
+  width: 50%;
+  height: 30px;
+  margin-top: 10px;
+  background-color: #9ea6d4;
+  color: #FFF;
+  border: none;
+}
+
+.result-type button.active {
+  background-color: #FFF;
+  color: #000;
+}
+
 .district, .division {
-    width: 100%;
-    margin-top: 20px;
-    font-size: 18px;
-    height: 30px;
+  width: 100%;
+  margin-top: 15px;
+  font-size: 18px;
+  height: 30px;
 }
 
 .results {
