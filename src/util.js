@@ -9,6 +9,7 @@ export const parties = {
   7: { name: "EPDP", color: '#000000'},
   8: { name: "UPFA", color: '#010095'},
   9: { name: "JVP", color: '#E60000'},
+  10: { name: "SLFP", color: '#314199'},
   11: { name: "AITC", color: '#000000'},
   12: { name: "TMTK", color: '#000000'},
 };
