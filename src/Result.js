@@ -6,7 +6,7 @@ function Result(props) {
 
   return <div className="result-container">
     <div className="division-header">
-      {result.id < 100 ? result.name : `${result.districtName} - ${result.name}`}
+      {result.id < 100 ? (result.released ? result.name : <div> {result.name} <span className="not-final">* not a final result</span></div>) : `${result.districtName} - ${result.name}`}
     </div>
     <div className="division-content">
       {
@@ -20,7 +20,7 @@ function Result(props) {
               </div>
               {(result.id>0 && result.id<100) ? (<div className="seat-alloc">
                 <div className="seat-perc" style={{width: r.seatPerc+"%", backgroundColor: parties[r.id].color}}></div>
-                {Array(result.seats-1).fill(null).map((r,i)=><div key={i} className="seat-block"></div>)}
+                <div className="seat-blocks">{Array(result.seats-1).fill(null).map((r,i)=><div key={i} className="seat-block"></div>)}</div>
               </div>) : ''}
             </div>
             <div className="party-perc">{Number(r.perc).toFixed(2)}%</div>

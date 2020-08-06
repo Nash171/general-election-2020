@@ -56,6 +56,11 @@ code {
   padding: 10px;
 }
 
+.results .not-released {
+  text-align: center;
+  color: red;
+}
+
 .result-container {
   margin-bottom: 10px;
   background-color: #ffffff;
@@ -67,6 +72,10 @@ code {
   padding: 5px 10px;
   color: #FFF;
   height: 20px;
+}
+
+.division-header span.not-final {
+  color: #e4ff00;
 }
 
 .division-content {
@@ -111,7 +120,6 @@ code {
 
 .seat-alloc {
   height: 10px;
-  display: flex;
   position: relative;
 }
 
@@ -120,9 +128,22 @@ code {
   height: 10px;
 }
 
+.seat-blocks {
+  display: flex;
+  position: absolute;
+  height: 10px;
+  width: 100%;
+}
+
 .seat-block {
   flex: 1;
-  border: 1px solid black;
+  border-width: 1px 0px 1px 1px;
+  border-color: #868686;
+  border-style: solid;
+}
+
+.seat-block:last-child {
+  border-width: 1px;
 }
 
 .party-votes {

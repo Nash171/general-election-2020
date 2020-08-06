@@ -1,15 +1,15 @@
 export const parties = {
-  0: { name: "Other", color: '#FFF'},
-  1: { name: "Other", color: '#F1F'},
-  2: { name: "SJB", color: '#FAF'},
-  3: { name: "UNP", color: '#FCF'},
-  4: { name: "NPP", color: '#FFF'},
-  5: { name: "ITAK", color: '#FFF'},
-  6: { name: "SLMC", color: '#FFF'},
-  7: { name: "EPDP", color: '#FFF'},
-  8: { name: "UPFA", color: '#FFF'},
-  9: { name: "JVP", color: '#FFF'},
-  10: { name: "SLFP", color: '#FFF'},
+  0: { name: "Other", color: '#000000'},
+  1: { name: "SLPP", color: '#991A24'},
+  2: { name: "SJB", color: '#27D4BF'},
+  3: { name: "UNP", color: '#07aa13'},
+  4: { name: "NPP", color: '#9F006D'},
+  5: { name: "ITAK", color: '#F80500'},
+  6: { name: "SLMC", color: '#F1C201'},
+  7: { name: "EPDP", color: '#000000'},
+  8: { name: "UPFA", color: '#010095'},
+  9: { name: "JVP", color: '#E60000'},
+  10: { name: "SLFP", color: '#314199'},
 };
 
 export const districts = [
